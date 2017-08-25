@@ -30,7 +30,7 @@ app.use(multer({
 	dest: './uploads/'
 }));
 app.use(
-	sass.middleware({
+	sassMiddleware({
 		src: __dirname + '/public',
 		dest: __dirname + '/public',
 		debug: true,
